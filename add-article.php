@@ -3,8 +3,8 @@
 
 <head>
     <?php require_once 'includes/head.php' ?>
-    <title>Blog | V1</title>
-    <link rel="stylesheet" href="/public/css/index.css">
+    <title>Add an Article</title>
+    <link rel="stylesheet" href="/public/css/add-article.css">
 </head>
 
 <body>
