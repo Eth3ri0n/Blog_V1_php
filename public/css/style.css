@@ -98,6 +98,8 @@ header {
   display: flex;
   flex-flow: column;
   align-self: center;
+  align-items: center;
+  padding: 2rem 0;
 }
 
 /* Button */
@@ -138,6 +140,26 @@ header {
 
 .low-opacity {
   opacity: 0.5;
+}
+
+/* Block */
+.block {
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border: var(--border);
+  background-color: #fff;
+  box-shadow: var(--box-shadow);
+}
+
+/* utils */
+.p-20 {
+  padding: 20px;
+}
+.p-10 {
+  padding: 10px;
 }
 
 /* Footer */
