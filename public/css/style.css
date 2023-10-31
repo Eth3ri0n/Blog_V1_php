@@ -154,7 +154,7 @@ header {
   box-shadow: var(--box-shadow);
 }
 
-/* utils */
+/* Utils */
 .p-20 {
   padding: 20px;
 }
@@ -162,6 +162,10 @@ header {
   padding: 10px;
 }
 
+/* Overflow */
+.overflow {
+  overflow: hidden;
+}
 /* Footer */
 footer {
   background-color: var(--dark);

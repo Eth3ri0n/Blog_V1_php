@@ -1,0 +1,39 @@
+.category-container h2 {
+    font-size: 1.9rem;
+    padding: 0 1rem;
+    text-transform: capitalize;
+}
+.articles-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+.article {
+  flex: 30%;
+  margin: 1rem;
+  min-height: 55rem;
+  cursor: pointer;
+}
+.article:hover .img-container {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+.article > h3 {
+  font-size: 1.7rem;
+  padding: 1rem 1.5rem;
+}
+.img-container {
+  height: 40rem;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  transition: all 1s;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+}

@@ -108,6 +108,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         <select name="category" id="category">
                             <option value="technology">Technology</option>
                             <option value="science">Science</option>
+                            <option value="health">Health</option>
                             <option value="nature">Nature</option>
                             <option value="politic">Politic</option>
                             <option value="serie">Serie</option>
